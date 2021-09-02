@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="<%= VITE_APP_TITLE %>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <meta http-equiv="Cache-Control" content="must-revalidate" />
+    <meta http-equiv="Expires" content="0" />
+    <title><%=VITE_APP_TITLE %></title>
+
+    <!-- <% if(VITE_APP_MODE === 'production') { %>
+    <script src="vconsole.min.js"></script>
+    <script>
+        var vConsole = new VConsole();
+    </script>
+    <% } %> -->
+
+</head>
+
+<body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <!-- <% if(VITE_APP_MODE !== 'development') { %>
+    do something...
+    <% } %> -->
+</body>
+
+</html>
